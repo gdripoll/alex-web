@@ -1,4 +1,7 @@
 /* jshint esversion:6 */
+//require('../css/_variables.scss');
+//require('../css/_bootswatch.scss');
+//require('../css/home.scss');
 
 import React from "react";
 import ReactDOM from "react-dom";
@@ -10,6 +13,8 @@ import Home from "./pages/Home";
 // import Settings from "./pages/Settings";
 
 const app = document.getElementById('app');
+
+const a=2;
 
 ReactDOM.render(
   <Router history={hashHistory}>
